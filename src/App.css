@@ -1,38 +1,43 @@
-.App {
+.update {
+  font-size: 16px;
+}
+
+.weather-app {
+  max-width: 600px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto;
+  border: solid 1px black;
+  background-image: url(sunset.jpeg);
+  position: relative;
+  background-image: linear-gradient(to top, #ad899d 0%, #ad899d 100%);
+}
+
+.forecast-day {
+  border: solid 1px black;
+  border-radius: 10px;
   text-align: center;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.forecast-day:hover {
+  background-color: #ad899d;
+  transition: all 200ms ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#temperature,
+h1 {
+  font-size: 35px;
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin: 50px;
+}
+
+footer {
+  text-align: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
