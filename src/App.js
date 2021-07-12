@@ -78,7 +78,7 @@ function App() {
     </div>
   </div>
   <footer>
-    <a href="https://github.com/lena-chen/SheCodes-Project" target="_blank" rel="noreferrer"><strong>Open-source code</strong>  </a> by alena
+    <a href="https://github.com/lena-chen/react-weather-app" target="_blank" rel="noreferrer"><strong>Open-source code</strong>  </a> by alena
   </footer>
   <script src="script.js"></script>
   </container>
